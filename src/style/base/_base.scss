@@ -1,0 +1,56 @@
+
+$base_color:rgb(51,119,170);
+@mixin base_link{
+	font-size:12px;
+	color:$base_color;
+	text-decoration:none;
+	&:hover{
+		color:#fff;
+		background:$base_color;
+	}
+}
+@mixin base_button{
+	line-height:13px;
+	padding:4px 10px;
+	margin-right:10px;
+	background:#edc72f;
+	font-weight:bold;
+	border-radius:4px;
+}
+@mixin base_el_card{
+	padding:30px;
+	width:400px;
+	margin:100px auto;
+	text-align:center;
+}
+@mixin base_el_pagination{
+	h2{
+		font-size:16px;
+		color:#25b753;
+		padding:10px 0px;
+		float:left;
+	}
+	.el-pagination{
+		float:right;
+		margin-top:10px;
+		margin-right:10px;
+	}
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-top:30px;
+}
+@mixin base_error_message{
+	margin-top:-10px;
+	font-size:12px;
+	color:red;
+	text-align:left;
+	margin-left:10px;
+	height:18px;
+}
+@mixin base_h3{
+	font-size:16px;
+	color:rgb(0,119,34);
+	margin-top:10px;
+	margin-bottom:15px;
+}
+@import './_basestyle.scss';
