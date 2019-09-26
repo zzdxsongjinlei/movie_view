@@ -1,9 +1,6 @@
-#book_view
-##简介：
 # book_view
-
-> A Vue.js project
-
+## 简介：
+> 基于vue制作的电影前台展示界面，基于express+mongoDB制作的电影后台。
 ## Build Setup
 
 ``` bash
