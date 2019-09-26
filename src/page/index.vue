@@ -89,7 +89,7 @@
 				this.$store.dispatch('movie/getData');
 				this.$store.dispatch('article/getData');
 				//主页轮播图
-				this.axios.get('http://49.234.53.172:3000/showIndex').then(response=>{
+				this.axios.get('api/showIndex').then(response=>{
 					this.indexPic=response.data.data;
 				});
 			},
